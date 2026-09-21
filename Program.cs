@@ -65,4 +65,19 @@ void wypiszListe(List<int> listaliczb) {
 }
 }
 List<int> listaProbna = wylosowanieLiczbBezPowtórzenDOListy(10);
-wypiszListe(listaProbna);w
+wypiszListe(listaProbna);
+
+HashSet<int> wylosujLiczbyBezPowtorzenDoZbioru(int ileLiczb)
+{
+    HashSet<int> zbiorWylosowany = new HashSet<int>();
+    Random random = new Random();
+    for (int i = 0; i < length; i++)
+    {
+        zbiorWylosowany.Add(random.Next(1, 10));
+    }
+    return zbiorWylosowany;
+}
+void wypiszZbior(HashSet<int> zbiorLiczb)
+{
+   Console
+}
